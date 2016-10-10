@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+            <meta content="yes" name="apple-mobile-web-app-capable" />
+            <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+            <meta name="format-detection" content="telephone=no" />
+            
+            <title>360 image slider demo</title>
+            <link rel="stylesheet" href="reset.css" media="screen" type="text/css" />
+            <link rel="stylesheet" href="threesixty.css" media="screen" type="text/css" />
+    </head>
+    <body style="background:#FEFEFE;">
+        <div id="threesixty">
+            <div id="spinner">
+                <span>0%</span>
+            </div>
+            <ol id="threesixty_images"></ol>
+        </div>
+        
+        
+        <script type="text/javascript" src="jquery.min.js"></script>
+        <script type="text/javascript" src="jquery.transit.min.js"></script>
+        <script type="text/javascript" src="hammer.min.js"></script>
+        <script type="text/javascript">
+            var totalFrames = 179,
+            imgPath = 'threesixty_',
+            imgSuffix = '.jpg';
+            </script>
+        <script src="threesixty.js?v00011"></script>
+    </body>
+</html>
